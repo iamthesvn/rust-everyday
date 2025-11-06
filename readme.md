@@ -1,0 +1,1 @@
+This repo tracks my daily progress learning Rust.
