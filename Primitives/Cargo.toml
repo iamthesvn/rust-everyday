@@ -1,0 +1,10 @@
+[package]
+name = "Primitives"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "_2_1_literals_and_operators"
+path = "src/bin/_2_1_literals_and_operators"
+
+[dependencies]
