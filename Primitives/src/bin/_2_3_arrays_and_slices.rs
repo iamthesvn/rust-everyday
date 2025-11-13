@@ -28,7 +28,7 @@ fn main() {
     assert_eq!(&empty_array, &[]);
     assert_eq!(&empty_array, &[][..]);
 
-    for i in 0..xs.len() + 1 { // Oops, one element too far!
+    for i in 0..xs.len() + 1 { 
         match xs.get(i) {
             Some(xval) => println!("{}: {}", i, xval),
             None => println!("Slow down! {} is too far!", i),
